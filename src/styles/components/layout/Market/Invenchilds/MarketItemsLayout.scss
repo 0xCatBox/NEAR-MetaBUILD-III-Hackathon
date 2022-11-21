@@ -1,0 +1,80 @@
+.MarketItems {
+    width: 180px;
+    height: 300px;
+    /* Box/yellow */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), rgba(252, 208, 23, 0.8);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+.MarketItems:hover {
+    outline: 2px solid #FFFFFF;
+}
+
+.MarketBox {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 180px;
+    padding-left:5%;
+    padding-right: 5%;
+}
+
+
+.MarketItemImg {
+    width: 105.53px;
+    height: 116.63px;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.MarketDescription {
+    position: absolute;
+    width:180px;
+    height: 130px;
+    top: 170px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 0px 0px 25px 25px;
+    background: #212121;
+}
+
+
+.MarketItemName {
+    width: auto;
+    max-width: 160px;
+    margin: 10px;
+    line-height: 30px;
+    
+    /* font */
+    font-family: 'Broken Console';
+    font-style: bold;
+    font-weight: 600;
+    font-size: 19px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+    color: #F9F9F9;
+}
+
+.MarketItemDescription {
+    max-width: 160px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    text-align: start;
+    font-family: 'Broken Console';
+    font-style: Medium;
+    font-weight: 500;
+    font-size: 16px;
+    white-space: normal;
+    word-break: word;
+    line-height: 20px;
+    color: #F9F9F9;
+}

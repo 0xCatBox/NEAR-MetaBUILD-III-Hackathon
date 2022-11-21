@@ -1,0 +1,57 @@
+.ThiefListLayout {
+  position: absolute;
+  width: 100%;
+  top: 200px;
+}
+
+.Items {
+  width: 180px;
+  height: 300px;
+  /* Box/yellow */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), rgba(252, 208, 23, 0.8);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
+
+.Description {
+  position: absolute;
+  width: 180px;
+  height: 130px;
+  top: 170px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 0px 0px 25px 25px;
+  background: #212121;
+}
+
+.ThiefName {
+  max-width: 160px;
+  margin: 10px;
+  line-height: 32px;
+  /* font */
+  font-family: "Broken Console";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #F9F9F9;
+}
+
+.ThiefDescription {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-family: "Broken Console";
+  font-style: Medium;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  color: #F9F9F9;
+}/*# sourceMappingURL=ThiefLayout.css.map */
