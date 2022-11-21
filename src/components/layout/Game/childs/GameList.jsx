@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import GameGrid from '../../../../assets/GameGrid.png';
 import { useState } from "react";
+import DoGame from '../../../../assets/DoGame.png';
 
 const GameList = () => {
 
@@ -84,13 +85,7 @@ const GameList = () => {
         } else if (component == 1) {
             return (
                 <div>
-                    <Container>
-                        <Row>
-                            <Col>
-                                {GameElement(5, 10000, 50, 20, 'DO IT IF YOU CAN', 100)}
-                            </Col>
-                        </Row>
-                    </Container>
+                    <img src={DoGame} style={{marginTop:"30px"}}/>
                 </div>
             )
         }

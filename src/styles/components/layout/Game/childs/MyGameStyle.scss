@@ -1,0 +1,18 @@
+.MyGameGridFlexBox{
+    width: 263px;
+    height: 263px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border-top: 3px solid white;
+    border: 3px solid white;
+}
+
+.MyGameGridFlexBoxBelow {
+}
+
+.MyGameBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
