@@ -32,6 +32,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -44,6 +45,7 @@
   src: url('./styles/fonts/Broken\ Console\ Regular.eot?iefix') format("embedded-opentype");
   font-weight: 500;
 }
+
 @font-face {
   font-family: 'Broken Console';
   font-weight: bold;

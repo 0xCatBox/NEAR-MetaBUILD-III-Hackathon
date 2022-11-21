@@ -1,0 +1,190 @@
+.LabsBox {
+    width: 500px;
+    height: 620px;
+
+    .ShowSporesBox {
+        position: absolute;
+        left: 50%;
+        bottom: 10px;
+
+        .ShowItemTitle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ItemHorizontalBox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .LabsItemBox {
+                .LabsItemImage {
+                    border: 3px solid #FC9E2B;
+                }
+            }
+        }
+    }
+
+    .ShowMushroomsBox {
+        position: absolute;
+        left: 50%;
+        top: 10px;
+
+        .ShowItemTitle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ItemHorizontalBox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .LabsItemBox {
+                .LabsItemImage {
+                    border: 3px solid #752C8B;
+                }
+            }
+        }
+    }
+
+    .ShowSpSporesBox {
+        position: absolute;
+        top: 50%;
+        transform: translate(15px, -50%);
+
+        .ShowItemTitle {
+            width: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ItemVerticalBox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .LabsItemBox {
+                .LabsItemImage {
+                    border: 3px solid #3D3D3D;
+                }
+            }
+        }
+    }
+
+    .ShowSpMushroomsBox {
+        position: absolute;
+        top: 50%;
+        right: 0px;
+        transform: translate(-15px, -50%);
+
+        .ShowItemTitle {
+            width: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ItemVerticalBox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .LabsItemBox {
+                .LabsItemImage {
+                    border: 3px solid #3D3D3D;
+                }
+            }
+        }
+    }
+}
+
+.ShowItemTitle {
+    color: #FCD017;
+    font-size: 10px;
+    font-family: Broken Console;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.LabsItemBox {
+    .LabsItemImage {
+        width: 60px;
+        height: 60px;
+        border-radius: 5px;
+        background-image: url('../../../../../assets/Grid1.png');
+        background-color: #9C9C9CAA;
+    }
+
+    .LabsItemAmount {
+        position: absolute;
+        transform: translate(8px, -17px);
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        // border: 1px solid #000000;
+        font-family: Dogica Pixel;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+}
+
+.LabsDummyItemBox {
+    width: 60px;
+    height: 60px;
+}
+
+.LabsTree {
+    width: 496px;
+    height: 619px;
+    background-image: url('../../../../../assets/LabsTree.png');
+}
+
+.GrowingStatus {
+    position: absolute;
+    .GrowingOne{
+        position: absolute;
+        width: 33px;
+        left: 190px;
+        top:250px;
+        transform: rotate(-20deg);
+    }   
+    .GrowingTwo{
+        position: absolute;
+        width: 33px;
+        left: 260px;
+        top:280px;
+        transform: rotate(8deg);
+    } 
+    .GrowingThree{
+        position: absolute;
+        width: 33px;
+        left: 200px;
+        top:340px;
+        transform: rotate(-5deg);
+    }
+    .GrowingFour{
+        position: absolute;
+        width: 33px;
+        left: 260px;
+        top:390px;
+        transform: rotate(20deg);
+    }
+}
+
+.GrowingButtonBox{
+    position: absolute;
+    right: 18px;
+    bottom:45px;
+    .GrowingButton{
+        width: 50px;
+        height: 50px;
+        border-radius: 999px;
+        background-color: #D9D9D9;
+        border: 3px solid white;
+    }
+}

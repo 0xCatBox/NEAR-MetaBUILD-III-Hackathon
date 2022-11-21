@@ -16,6 +16,16 @@
 @import './styles/components/layout/Market/MarketThiefStyle.scss';
 @import './styles/components/layout/Market/MarketMushStyle.scss';
 
+// components > layout > Labs
+@import './styles/components/layout/Labs/LabsStyle.scss';
+@import './styles/components/layout/Labs/childs/ShowLabsStyle.scss';
+@import './styles/components/layout/Labs/childs/ShowSideUIStyle.scss';
+@import './styles/components/layout/Labs/childs/ShowDummyUIStyle.scss';
+
+// components > layout > Game
+@import './styles/components/layout/Game/GameStyle.scss';
+@import './styles/components/layout/Game/childs/GameListStyle.scss';
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

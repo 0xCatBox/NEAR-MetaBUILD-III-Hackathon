@@ -5,6 +5,7 @@ import R_Bg_Mush from '../../../../assets/R_BackgroundMushrooms.png';
 import R_Bg_Thief from '../../../../assets/R_BackgroundThief.png';
 import MushroomAdult from '../../../../assets/MushroomAdult.png';
 import Thief from '../../../../assets/Thief.png';
+import { Link } from "react-router-dom";
 
 const ShowChoose = ({ handleFlow }) => {
     return (
@@ -17,7 +18,11 @@ const ShowChoose = ({ handleFlow }) => {
                             <img src={MushroomAdult} />
                         </div>
                         <div>
-                            <button className="StoryButtonBox">MUSHRROM</button>
+                            <Link to="/labs">
+                                <button className="StoryButtonBox">
+                                    MUSHROOM
+                                </button>
+                            </Link>
                         </div>
                     </div>
                     <div>
