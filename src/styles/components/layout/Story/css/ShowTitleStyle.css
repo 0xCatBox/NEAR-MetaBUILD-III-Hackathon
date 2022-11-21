@@ -1,0 +1,37 @@
+.GameTitleBox {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.GameTitleBox .GameTitle {
+  width: 100%;
+  font-size: 50px;
+  font-family: Broken Console;
+  font-weight: bold;
+  color: #FCD017;
+  margin-bottom: 45px;
+}
+.GameTitleBox .GameSubTitle {
+  width: 100%;
+  font-size: 20px;
+  font-family: Broken Console;
+  font-weight: 400;
+  color: #FCD017;
+}
+.GameTitleBox .GameTitleGIF {
+  height: 200px;
+}
+.GameTitleBox .GameStartBtn {
+  width: 290px;
+  height: 70px;
+  background-color: #752C8B;
+  border: none;
+  border-bottom: 5px solid #430054;
+  border-right: 5px solid #430054;
+  font-size: 24px;
+  font-family: Dogica Pixel;
+  font-weight: bold;
+  color: white;
+}/*# sourceMappingURL=ShowTitleStyle.css.map */

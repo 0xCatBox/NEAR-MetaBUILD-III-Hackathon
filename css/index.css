@@ -1,0 +1,770 @@
+.Nav {
+  width: 100%;
+  height: 70px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavLogo {
+  width: 300px;
+  margin-left: 30px;
+}
+
+.NavElement {
+  width: 100%;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.NavElement .Dropdown {
+  color: #FFFFFF;
+  border-bottom: none;
+}
+
+.NavElement .DropMenuMushroom {
+  color: #FFFFFF;
+  border-bottom: none;
+}
+
+.NavElement .DropMenuThief {
+  color: #FFFFFF;
+}
+
+.NavActive {
+  color: #FCD017;
+  text-decoration: none;
+  font-family: Broken Console;
+  margin-left: 30px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid purple;
+}
+
+.NavDeactive {
+  color: white;
+  text-decoration: none;
+  font-family: Broken Console;
+  margin-left: 30px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+}
+
+.NavMushActive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #FCD017;
+  font-family: Broken Console;
+  width: 140px;
+  height: 45px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  background: #242424;
+  border: 2px solid #FFFFFF;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.NavThiefActive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #FCD017;
+  font-family: Broken Console;
+  width: 140px;
+  height: 45px;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  background: #242424;
+  border: 2px solid #FFFFFF;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.NavConnect {
+  width: 210px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.NavConnectBtn {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #191919;
+  color: white;
+}
+
+.Invenhover {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-family: Broken Console;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.Dropdown {
+  display: none;
+  cursor: pointer;
+}
+
+.Invenhover:hover .Dropdown {
+  display: block;
+  position: absolute;
+  align-items: center;
+}
+
+.DropMenuMushroom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 140px;
+  height: 45px;
+  background: #242424;
+  border: 2px solid #FFFFFF;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.DropMenuThief {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 45px;
+  text-decoration: none;
+  background: #242424;
+  border: 2px solid #FFFFFF;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.DropMenuMushroom:hover {
+  color: #0a58ca;
+}
+
+.DropMenuThief:hover {
+  color: #0a58ca;
+}
+
+.Story {
+  color: white;
+}
+
+.L_BG {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.L_BG_Thief {
+  position: absolute;
+  bottom: 13px;
+  left: 0px;
+  z-index: -1;
+  animation-name: L_BG_keyframe;
+  animation-duration: 1s;
+  animation-duration: leaner;
+  animation-iteration-count: infinite;
+}
+
+@keyframes L_BG_keyframe {
+  0% {
+    bottom: 13px;
+  }
+  50% {
+    bottom: 33px;
+  }
+  100% {
+    bottom: 13px;
+  }
+}
+.R_BG {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.R_BG_Thief {
+  position: absolute;
+  bottom: 50px;
+  right: 110px;
+  z-index: -1;
+  animation-name: R_BG_keyframe;
+  animation-duration: 1s;
+  animation-duration: leaner;
+  animation-iteration-count: infinite;
+}
+
+@keyframes R_BG_keyframe {
+  0% {
+    bottom: 50px;
+  }
+  50% {
+    bottom: 60px;
+  }
+  100% {
+    bottom: 50px;
+  }
+}
+.GameTitleBox {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.GameTitleBox .GameTitle {
+  width: 100%;
+  font-size: 50px;
+  font-family: Broken Console;
+  font-weight: bold;
+  color: #FCD017;
+  margin-bottom: 45px;
+}
+.GameTitleBox .GameSubTitle {
+  width: 100%;
+  font-size: 20px;
+  font-family: Broken Console;
+  font-weight: 400;
+  color: #FCD017;
+}
+.GameTitleBox .GameTitleGIF {
+  height: 200px;
+}
+.GameTitleBox .GameStartBtn {
+  width: 290px;
+  height: 70px;
+  background-color: #752C8B;
+  border: none;
+  border-bottom: 5px solid #430054;
+  border-right: 5px solid #430054;
+  font-size: 24px;
+  font-family: Dogica Pixel;
+  font-weight: bold;
+  color: white;
+}
+
+.StoryChooseBox {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.StoryChooseBox .StoryChooseTitle {
+  margin-bottom: 50px;
+  font-family: Broken Console;
+  font-weight: bold;
+  font-size: 34px;
+  color: #FCD017;
+}
+.StoryChooseBox .StoryChooseElementBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.StoryChooseBox .StoryChooseElementBox .StoryImageBox {
+  width: 250px;
+  height: 250px;
+  border: 5px solid #FCD017;
+  border-radius: 25px;
+  background-color: rgba(252, 208, 23, 0.3333333333);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.StoryChooseBox .StoryChooseElementBox .StoryButtonBox {
+  margin-top: 50px;
+  width: 200px;
+  height: 50px;
+  background-color: #752C8B;
+  border: none;
+  border-bottom: 5px solid #430054;
+  border-right: 5px solid #430054;
+  font-size: 22px;
+  font-family: Broken Console;
+  font-weight: bold;
+  color: white;
+}
+
+.Invenlayout {
+  position: absolute;
+  width: 100%;
+  top: 200px;
+}
+
+.Filter {
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  top: 100px;
+}
+
+.Filter .ButtonBox {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+
+.FilterIcon {
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #FFFFFF;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+
+.ButtonALL {
+  justify-content: center;
+  align-items: center;
+  min-width: 130px;
+  height: 40px;
+  font-family: "Broken Console";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  /* Main/Yellow */
+  color: #FCD017;
+  background: #000000;
+  border: 2px solid #FFFFFF;
+  border-radius: 12px 0px 0px 12px;
+}
+
+.ButtonMUSHROOM {
+  justify-content: center;
+  align-items: center;
+  min-width: 130px;
+  height: 40px;
+  font-family: "Broken Console";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  background: #000000;
+  border: 2px solid #FFFFFF;
+}
+
+.ButtonSPORES {
+  justify-content: center;
+  align-items: center;
+  min-width: 130px;
+  height: 40px;
+  right: 100px;
+  font-family: "Broken Console";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  background: #000000;
+  border: 2px solid #FFFFFF;
+  border-radius: 0px 12px 12px 0px;
+}
+
+.ThiefList {
+  position: absolute;
+  min-height: 30px;
+  left: 100px;
+  top: 137px;
+  /* Headline/5 Regular */
+  font-family: "Broken Console";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  /* identical to box height, or 24px */
+  /* Main/Yellow */
+  color: #FCD017;
+}
+
+.Items {
+  width: 180px;
+  height: 300px;
+  /* Box/yellow */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), rgba(252, 208, 23, 0.8);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
+
+.Items:hover {
+  outline: 2px solid #FFFFFF;
+}
+
+.Box {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 180px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.ItemImg {
+  width: 105.53px;
+  height: 116.63px;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.Description {
+  position: absolute;
+  width: 180px;
+  height: 130px;
+  top: 170px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 0px 0px 25px 25px;
+  background: #212121;
+}
+
+.ItemName {
+  width: auto;
+  max-width: 160px;
+  margin: 10px;
+  line-height: 30px;
+  /* font */
+  font-family: "Broken Console";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 19px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #F9F9F9;
+}
+
+.ItemDescription {
+  max-width: 160px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: start;
+  font-family: "Broken Console";
+  font-style: Medium;
+  font-weight: 500;
+  font-size: 16px;
+  white-space: normal;
+  word-break: word;
+  line-height: 20px;
+  color: #F9F9F9;
+}
+
+.ThiefListLayout {
+  position: absolute;
+  width: 100%;
+  top: 200px;
+}
+
+.Items {
+  width: 180px;
+  height: 300px;
+  /* Box/yellow */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), rgba(252, 208, 23, 0.8);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
+
+.Description {
+  position: absolute;
+  width: 180px;
+  height: 130px;
+  top: 170px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 0px 0px 25px 25px;
+  background: #212121;
+}
+
+.ThiefName {
+  max-width: 160px;
+  margin: 10px;
+  line-height: 32px;
+  /* font */
+  font-family: "Broken Console";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #F9F9F9;
+}
+
+.ThiefDescription {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-family: "Broken Console";
+  font-style: Medium;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  color: #F9F9F9;
+}
+
+.MarketItems {
+  width: 180px;
+  height: 300px;
+  /* Box/yellow */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), rgba(252, 208, 23, 0.8);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
+
+.MarketItems:hover {
+  outline: 2px solid #FFFFFF;
+}
+
+.MarketBox {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 180px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.MarketItemImg {
+  width: 105.53px;
+  height: 116.63px;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.MarketDescription {
+  position: absolute;
+  width: 180px;
+  height: 130px;
+  top: 170px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 0px 0px 25px 25px;
+  background: #212121;
+}
+
+.MarketItemName {
+  width: auto;
+  max-width: 160px;
+  margin: 10px;
+  line-height: 30px;
+  /* font */
+  font-family: "Broken Console";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 19px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #F9F9F9;
+}
+
+.MarketItemDescription {
+  max-width: 160px;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: start;
+  font-family: "Broken Console";
+  font-style: Medium;
+  font-weight: 500;
+  font-size: 16px;
+  white-space: normal;
+  word-break: word;
+  line-height: 20px;
+  color: #F9F9F9;
+}
+
+.MarketThiefListLayout {
+  position: absolute;
+  width: 100%;
+  top: 200px;
+}
+
+.MarketItems {
+  width: 180px;
+  height: 300px;
+  /* Box/yellow */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), rgba(252, 208, 23, 0.8);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-right: 25px;
+}
+
+.MarketDescription {
+  position: absolute;
+  width: 180px;
+  height: 130px;
+  top: 170px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 0px 0px 25px 25px;
+  background: #212121;
+}
+
+.MarketThiefName {
+  max-width: 160px;
+  margin: 10px;
+  line-height: 32px;
+  /* font */
+  font-family: "Broken Console";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #F9F9F9;
+}
+
+.MarketThiefDescription {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-family: "Broken Console";
+  font-style: Medium;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  color: #F9F9F9;
+}
+
+.MarketThiefList {
+  position: absolute;
+  min-height: 30px;
+  left: 100px;
+  top: 137px;
+  /* Headline/5 Regular */
+  font-family: "Broken Console";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  /* identical to box height, or 24px */
+  /* Main/Yellow */
+  color: #FCD017;
+}
+
+.MarketInvenlayout {
+  position: absolute;
+  width: 100%;
+  top: 200px;
+}
+
+.MarketFilter {
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  top: 100px;
+}
+
+.MarketFilter .MarketButtonBox {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+
+.MarketFilterIcon {
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #FFFFFF;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+
+.MarketButtonALL {
+  justify-content: center;
+  align-items: center;
+  min-width: 130px;
+  height: 40px;
+  font-family: "Broken Console";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  /* Main/Yellow */
+  color: #FCD017;
+  background: #000000;
+  border: 2px solid #FFFFFF;
+  border-radius: 12px 0px 0px 12px;
+}
+
+.MarketButtonMUSHROOM {
+  justify-content: center;
+  align-items: center;
+  min-width: 130px;
+  height: 40px;
+  font-family: "Broken Console";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  background: #000000;
+  border: 2px solid #FFFFFF;
+}
+
+.MarketButtonSPORES {
+  justify-content: center;
+  align-items: center;
+  min-width: 130px;
+  height: 40px;
+  right: 100px;
+  font-family: "Broken Console";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  background: #000000;
+  border: 2px solid #FFFFFF;
+  border-radius: 0px 12px 12px 0px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("./assets/SpaceBackground.png");
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}/*# sourceMappingURL=index.css.map */

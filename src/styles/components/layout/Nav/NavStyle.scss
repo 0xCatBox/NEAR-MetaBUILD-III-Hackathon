@@ -1,3 +1,4 @@
+
 .Nav {
     width: 100%;
     height: 70px;
@@ -17,8 +18,25 @@
     font-size: 20px;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     margin-left: 70px;
+    
 }
+
+.NavElement .Dropdown {
+    color:#FFFFFF;
+    border-bottom: none;
+}
+
+.NavElement .DropMenuMushroom {
+    color:#FFFFFF;
+    border-bottom: none;
+}
+.NavElement .DropMenuThief {
+    color:#FFFFFF;
+}
+
+
 
 .NavActive {
     color: #FCD017;
@@ -39,6 +57,40 @@
     padding-bottom: 5px;
 }
 
+.NavMushActive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FCD017;
+    font-family: Broken Console;
+    width: 140px;
+    height: 45px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+
+    background: #242424;
+    border: 2px solid #FFFFFF;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.NavThiefActive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FCD017;
+    font-family: Broken Console;
+    width: 140px;
+    height: 45px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+
+    background: #242424;
+    border: 2px solid #FFFFFF;
+    border-radius: 0px 0px 12px 12px;
+}
+
 .NavConnect {
     width: 210px;
     margin-right: 30px;
@@ -52,4 +104,67 @@
     border: none;
     background-color: #191919;
     color: white;
+}
+
+
+.Invenhover {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-family: Broken Console;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    // padding-top: 8px;
+    // padding-bottom: 5px;
+}
+
+.Dropdown {
+    display: none;
+    cursor: pointer;
+}
+
+.Invenhover:hover .Dropdown {
+    display: block;
+    position: absolute;
+    align-items: center;
+}
+
+
+
+.DropMenuMushroom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // padding: 8px 16px;
+    text-decoration: none;
+    width: 140px;
+    height: 45px;
+    
+    background: #242424;
+    border: 2px solid #FFFFFF;
+    border-radius: 12px 12px 0px 0px;
+}
+
+
+.DropMenuThief {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 140px;
+    height: 45px;
+    
+    text-decoration: none;
+    background: #242424;
+    border: 2px solid #FFFFFF;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.DropMenuMushroom:hover {
+    color: #0a58ca;
+}
+
+.DropMenuThief:hover {
+    color: #0a58ca;
 }

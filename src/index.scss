@@ -1,11 +1,20 @@
 // components > layout > Nav
 @import './styles/components/layout/Nav/NavStyle.scss';
-
 // components > layout > Story
 @import './styles/components/layout/Story/StoryStyle.scss';
 @import './styles/components/layout/Story/childs/ShowBGStyle.scss';
 @import './styles/components/layout/Story/childs/ShowTitleStyle.scss';
 @import './styles/components/layout/Story/childs/ShowChooseStyle.scss';
+// components > layout > Inventory
+@import './styles/components/layout/Inventory/InventoryStyle.scss';
+@import './styles/components/layout/Inventory/ThiefStyle.scss';
+@import './styles/components/layout/Inventory/invenchilds/ItemsLayout.scss';
+@import './styles/components/layout/Inventory/Thiefchilds/ThiefLayout.scss';
+// components > layout > Market
+@import './styles/components/layout/Market/invenchilds/MarketItemsLayout.scss';
+@import './styles/components/layout/Market/Thiefchilds/MarketThiefLayout.scss';
+@import './styles/components/layout/Market/MarketThiefStyle.scss';
+@import './styles/components/layout/Market/MarketMushStyle.scss';
 
 body {
   margin: 0;
