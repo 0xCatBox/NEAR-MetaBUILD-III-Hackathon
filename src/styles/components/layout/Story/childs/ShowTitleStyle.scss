@@ -22,7 +22,24 @@
         color: #FCD017;
     }
 
-    .GameTitleGIF {
+    .GameTitleGIF,
+    .GameTitleGIF :before,
+    .GameTitleGIF :after{
+        image-rendering: -moz-crisp-edges; /* firefox */
+        image-rendering: -o-crisp-edges; /* opera */
+        image-rendering: -webkit-optimize-contrast; /* chrome(비표준) */
+        image-rendering: crisp-edges;
+        image-rendering: -moz-auto;
+        /* Firefox */
+        image-rendering: -o-auto;
+        /* Opera */
+        image-rendering: -webkit-optimize-contrast;
+        /* Webkit (non-standard naming) */
+        image-rendering: auto;
+        -ms-interpolation-mode: nearest-neighbor;
+        /* IE (non-standard property) */
+        transform:translateZ(0);
+        backface-visibility:hidden;
         height: 200px;
     }
 

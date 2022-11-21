@@ -1,0 +1,74 @@
+.WalletTabs {
+    width: 100%;
+    height: 100%;
+    // background: #EDBE00;
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+ul.nav {
+}
+
+ul.nav li {
+    font-size: 18px;
+    font-family: Broken Console;
+}
+
+ul.nav li.activetab1 {
+    width: 130px;
+    height: 40px;
+    border: 3px solid white;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FCD017;
+}
+
+ul.nav li.activetab2 {
+    width: 130px;
+    height: 40px;
+    border: 3px solid white;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FCD017;
+}
+
+ul.nav li.deactivetab1 {
+    width: 130px;
+    height: 40px;
+    border: 3px solid white;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+ul.nav li.deactivetab2 {
+    width: 130px;
+    height: 40px;
+    border: 3px solid white;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.GameFilterBtn{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 3px solid white;
+    margin-left: 20px;
+}

@@ -13,7 +13,9 @@
 @import './styles/components/layout/Labs/childs/ShowSideUIStyle.scss';
 @import './styles/components/layout/Labs/childs/ShowDummyUIStyle.scss';
 
-
+// components > layout > Game
+@import './styles/components/layout/Game/GameStyle.scss';
+@import './styles/components/layout/Game/childs/GameListStyle.scss';
 
 body {
   margin: 0;

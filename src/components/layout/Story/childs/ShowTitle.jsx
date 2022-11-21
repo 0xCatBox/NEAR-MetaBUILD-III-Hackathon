@@ -4,6 +4,7 @@ import L_Bg_Mush from '../../../../assets/L_BackgroundMushrooms.png';
 import L_Bg_Thief from '../../../../assets/L_BackgroundThief.png';
 import R_Bg_Mush from '../../../../assets/R_BackgroundMushrooms.png';
 import R_Bg_Thief from '../../../../assets/R_BackgroundThief.png';
+import TitleGif from '../../../../assets/TitleGif.gif';
 
 const ShowTitle = ({ handleFlow }) => {
 
@@ -24,7 +25,7 @@ const ShowTitle = ({ handleFlow }) => {
             <div className="GameTitleBox">
                 <div className="GameTitle">MUSHROOM WAR</div>
                 <div className="GameSubTitle">Produce or Steal!</div>
-                <div className="GameTitleGIF">Image</div>
+                <img src={TitleGif} className="GameTitleGIF"/>
                 <div>
                     {AccountButton()}
                 </div>

@@ -1,0 +1,42 @@
+.GameGrid {
+    width: 280px;
+    margin-top: 50px;
+}
+
+.GameGridImage {
+    width: 263px;
+    height: 263px;
+    background-image: url('../../../../../assets/GameGrid.png');
+}
+
+.GameGridFlexBox {
+    width: 263px;
+    height: 263px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid white;
+    font-size: 10px;
+    font-family: Dogica Pixel;
+    border-top: none;
+    padding: 15px;
+}
+.GameGridFlex {
+    display: flex;
+    justify-content: space-between;
+    font-family: Dogica Pixel;
+}
+
+.GameGridButton {
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    font-family: Broken Console;
+    border: none;
+    background-color: #752C8B;
+    border-bottom: 5px solid #430054;
+    border-right: 5px solid #430054;
+    color: white;
+}
